@@ -1,7 +1,7 @@
 {
   "name": "graphicsmagick-static",
   "version": "0.1.3",
-  "description": "graphicsmagick static binaries linking for Windows, Linux ",
+  "description": "graphicsmagick static binaries linking for Windows",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
@@ -10,10 +10,14 @@
     "type": "git",
     "url": "https://github.com/SamirL/graphicsmagick-static"
   },
+  "contributors": [
+    "Vin <vin@8sistemas.com> (http://vin.8sistemas.com)"
+  ],
   "keywords": [
     "graphicsmagick",
     "binaries"
   ],
   "author": "SamirL",
-  "license": "ISC"
+  "license": "ISC",
+  "os": ["win32"]
 }
